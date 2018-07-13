@@ -18,6 +18,7 @@ for d in basal.create_doses():
 #insulin_plotter.scatter_plot_dosage_and_absorption(timeline)
 insulin_plotter.plot_absorption(timeline)
 
+insulin_plotter.three_day_xticks()
 insulin_plotter.show()
 
 
@@ -41,6 +42,7 @@ insulin_plotter.plot_absorption(timeline)
 
 
 
+insulin_plotter.three_day_xticks()
 insulin_plotter.show()
 
 timeline = insulin_absorption.Timeline()

@@ -1,3 +1,5 @@
+# Reverse engineered absorption per 15-minutes from the humalog insert.
+# https://www.google.com/search?q=humalog+absorption+curve&tbm=isch
 
 increment_minutes = 15
 absorption = [

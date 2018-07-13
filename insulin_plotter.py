@@ -11,7 +11,7 @@ def show():
 def three_day_xticks():
     xlocations = range(-24, 48)
     xlabels = ['{}:00'.format(h%24) for h in xlocations]
-    pyplot.xticks(xlocations, xlabels)
+    pyplot.xticks(xlocations, xlabels, rotation=45)
 
 def plot_basal_pattern(basal_pattern):
     pattern = basal_pattern.create_three_day_pattern()
